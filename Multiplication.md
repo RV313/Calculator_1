@@ -1,5 +1,6 @@
-Agenda: To compute multiplication of 2 numbers
+# Agenda: To compute multiplication of 2 numbers.
 
-Scenarios:
+## Scenario: Multiplication of 2 numbers
+
 
 
