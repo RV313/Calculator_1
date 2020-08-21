@@ -1,6 +1,6 @@
 # Addition
 
-### Scenario: Add two numbers
+## Scenario: Add two numbers
   
   Given I have a calculator that's turned on.
 
@@ -11,7 +11,7 @@
   
   Then I see the "added sum" as the result
 
-### Scenario: Add more numbers
+## Scenario: Add more numbers
 
   Given I have a calculator that's turned on.
 
@@ -24,8 +24,7 @@
   
   Then I see the "added sum" as a result.
  
-
-### Scenario: Result is too large to display (or overrunning the limits)
+## Scenario: Result is too large to display (or overrunning the limits)
 
   Given I have a calculator that's turned on
   and display screen has 10 digits displaying limit.
