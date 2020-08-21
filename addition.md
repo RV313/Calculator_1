@@ -18,27 +18,25 @@
   When I enter "number1"
   And I press "+" button
   And I enter "number2"
-  And I press "+" button 
+  And I press "+" button
   so continue to enter numbers and "+" after that
   And I press "=" button
-
+  
   Then I see the "added sum" as a result.
-
+ 
 
 ### Scenario: Result is too large to display (or overrunning the limits)
 
-  Given I have a calculator that's turned on 
+  Given I have a calculator that's turned on
   and display screen has 10 digits displaying limit.
-
+  
   When I press "number1"
   And I press "+" button
   And I press "number2"
   And I press "=" button
-
+  
   Then I see the "Result to large to display message" on screen
-
-
-
+  
 Scenario: Numbers can be negative
 
 Scenario: Numbers can be fraction
